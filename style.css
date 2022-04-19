@@ -1,0 +1,145 @@
+body {
+    background-image: url('Fondo.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+}
+img {
+    height: 400px;
+    position: relative;
+    opacity: 0.6;
+    display: flex;
+    top: 10px;
+    left: 420px;
+    
+}
+h1 {
+    position: relative;
+    top: -380px;
+    left: 500px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+h2 {
+    position: relative;
+    top: -390px;
+    left: 500px;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(133, 187, 40);
+}
+form {
+    position: relative;
+    top: -430px;
+    left: 445px;
+}
+form fieldset{
+    border-style: none;
+    float: left;
+    width: 10%;
+}
+
+div {
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    width: 250px;
+    border: 2px solid rgb(54, 168, 1);
+    padding:8px 10px;
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: .25s;
+    
+    
+}
+label input{
+    display: block;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+label span{
+    color: rgb(54, 168, 1);
+    position: absolute;
+    top: 8px;
+    left:10px;
+    transition: .25s;
+    
+    
+}
+
+span,
+input{
+    font: 16px/16px Verdana;
+    padding: 0;
+    
+}
+
+/* focus */
+label.focus {
+    border-color: brown;
+}
+
+
+label span.focus{
+    color: brown;
+}
+/* top */
+label span.top{
+    left: 2px;
+    top: -10px;
+    font-size: 12px;
+    background-color:beige;
+    padding: 0 5px;
+    
+}
+.button1{
+    background-color:darkgreen;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: 250px;
+    left: -392px;
+}
+.button2{
+    background-color: darkred;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: -230px;
+    left: 180px;
+}
+p{
+    font: 16px/16px Verdana;
+    position: relative;
+    top: -150px;
+    left: 430px; 
+    font-weight: bold;
+}
+table{
+    position: relative;
+    top: -160px;
+    left: 500px; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-weight: bold;
+}
+th, td{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: burlywood;
+}
+.sweetAlert {
+    position: relative;
+    width: 22em;
+    margin: 0 auto;
+    top: 0px;
+    left: 512px;
+    right: 0;
+}
+    
